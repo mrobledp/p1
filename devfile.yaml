@@ -16,7 +16,7 @@ components:
       tool: console-import
     container:
       image: buildguidanceimage-placeholder
-      memoryLimit: 1024Mi
+      memoryLimit: 512Mi
       endpoints:
         - name: http-8081
           targetPort: 8081
